@@ -2,5 +2,20 @@
     --branco-principal: #ffff;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #1678f7;
+    --cor-de-fundo: #00030c;
 }
 {
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+.container{
+    height:100vh;
+}
+.prinipal{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
