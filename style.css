@@ -25,7 +25,10 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-}
+    display: block; 
+text-decoration: none;
+ }
+
 
 .container { 
 height: 100vh; 
@@ -35,4 +38,9 @@ grid-template-columns: 33% 33% 33%;
 
 .botao_secundario { 
 background-color: transparent;
+}
+
+.container__aviso { 
+font-size: 12px; 
+color: var(--cinza-secundario); 
 }
