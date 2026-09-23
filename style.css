@@ -13,18 +13,22 @@ body {
         background-color: var(--cor-de-fundo);
         color: var(--branco-principal);
 }
+
 .container {
-        height: 100vh;
-        display: grid; 
-        grid-template-columns: 33% 33% 33%; 
-}
-.principal {
+        padding: 4em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}.principal {
         background-image: url("Background.png");
         background-repeat: no-repeat;
         background-size: contain;
         align-items: center;
         text-align: center;
+        flex-direction: column;
 }
+
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -54,7 +58,7 @@ body {
     margin: 0 6em;
 }
 .secundario__imagem {
-    width: 80%;
+    width: 50%;
 }
 .secundario {
     align-items: center;
@@ -74,6 +78,8 @@ body {
     margin-top: 1em;
 }
 .container__descricao {
+    .container__descricao {
+    width: 50%;
     padding: 2em;
 }
 
