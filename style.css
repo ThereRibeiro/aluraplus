@@ -1,3 +1,4 @@
+
 :root {
        --branco-principal: #FFFFFF;
        --cinza-secundario: #C0C0C0;
@@ -68,19 +69,18 @@ body {
 .descricao__texto {
     color: var(--cinza-secundario);
 }
-.secundario {
-    align-items: center;
-    margin: 0 10em;
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
 }
-.descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--branco-principal);
-    margin-bottom: 0.1em;
+.container__descricao {
+    padding: 2em;
 }
-.descricao__texto {
-    color: var(--cinza-secundario);
-}
+
+
+
+
+
 
 
 
